@@ -1,0 +1,1 @@
+import json;m=json.load(open("data/raw/manifest.json"));errs=[f for f in m.get("files",[]) if f.get("errors")];print("Total processed entries:",len(m["files"]));print("Entries with errors:",len(errs));print(errs[:20])

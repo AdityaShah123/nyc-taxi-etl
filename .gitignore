@@ -1,0 +1,11 @@
+sparkprojenv/
+data/
+__pycache__/
+.vscode/
+*.pyc
+.env
+
+# Spark binaries and JARs
+spark-*/
+jars/
+*.jar
